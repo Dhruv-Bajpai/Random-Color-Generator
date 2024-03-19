@@ -1,0 +1,24 @@
+*{
+  margin:0px;
+}
+
+
+.MADE{
+  background-color:black;
+  width:auto;
+  height:50;
+  color:cyan;
+  margin:0px;
+  padding:5px;
+  text-decoration: underline;
+  text-decoration-color:grey;
+}
+
+button{
+  margin-top:5px;
+  margin-left:5px;
+  width:70px;
+  height:40px;
+  border-radius: 5px;
+  transform: translate(40,60);
+}
