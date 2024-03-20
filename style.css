@@ -1,24 +1,52 @@
 *{
   margin:0px;
+ 
 }
 
-
+.img{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  position: fixed;
+  top:13px;
+  right:40px;
+}
 .MADE{
-  background-color:black;
   width:auto;
-  height:50;
+  height:70px;
   color:cyan;
   margin:0px;
   padding:5px;
   text-decoration: underline;
-  text-decoration-color:grey;
+  text-decoration-color:white;
 }
 
+h1{
+  color:black;
+  
+}
 button{
-  margin-top:5px;
+  margin-top:55px;
   margin-left:5px;
+  margin-left:15px;
   width:70px;
   height:40px;
-  border-radius: 5px;
+  border-radius: 10px;
   transform: translate(40,60);
+  background-color:#e0e0e0;
+}
+
+button:hover{
+  transition-duration:1s;
+ 
+  transform:translate(0px,50px)
+}
+
+#h{
+  text-align:center;
+  font-size:25px;
+  margin-top:10vh;
+  border-color: black;
+  background-color:#cccccc;
+  
 }
